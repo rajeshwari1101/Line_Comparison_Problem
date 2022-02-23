@@ -11,8 +11,8 @@ namespace Line_Comparison_Problem
 
         public int X_1, X_2, Y_1, Y_2, S_1, S_2, R_1, R_2;
 
-        public double Length_XY, Length_SR;
-        
+        public double Length_XY;
+        public double Length_SR;
         public void length_line()
         {
 
