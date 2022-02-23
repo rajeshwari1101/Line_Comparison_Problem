@@ -68,5 +68,23 @@ namespace Line_Comparison_Problem
                 Console.WriteLine("Length of XY and Length of SR are Equal");
             Console.ReadKey();
         }
+
+        public void Comparelines()
+        {
+            double Differene = Length_XY.CompareTo(Length_SR);
+            if (Differene < 0)
+            {
+                Console.WriteLine("Length of XY is less than Length of SR");
+            }
+            if (Differene > 0)
+            {
+                Console.WriteLine("Length of XY is greater than Length of SR");
+            }
+            if (Differene == 0)
+            {
+                Console.WriteLine("Length of XY is equal to Length of SR");
+            }
+            Console.ReadKey();
+        }
     }
 }

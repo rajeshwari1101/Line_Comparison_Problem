@@ -16,6 +16,7 @@ namespace Line_Comparison_Problem
             LineComparison line = new LineComparison();
             line.length_line();
             line.check_equality();
+            line.Comparelines();
 
         }
     }
